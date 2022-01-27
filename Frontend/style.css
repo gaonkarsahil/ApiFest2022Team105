@@ -17,15 +17,6 @@
     justify-content: center;
 }
 
-@media only screen and (max-width: 950px) {
-  .hero-img{
-      display: none;
-  }
-  .card{
-      margin: 0;
-  }
-}
-
 .search{
     margin: 2em;
 }
@@ -43,4 +34,25 @@
 
 .card{
     margin: 50px;
+}
+
+@media only screen and (max-width: 950px) {
+  .hero-img{
+      display: none;
+  }
+  .card{
+      margin: 0;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .hero-img{
+      display: none;
+  }
+  .card{
+      margin: 0;
+  }
+  .disp-pets{
+      margin: 1em;
+  }
 }
