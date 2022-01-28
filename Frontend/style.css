@@ -22,7 +22,6 @@
 }
 
 .card-image img{
-    width: auto;
     height: 400px;
     object-fit: cover;
 }
@@ -38,8 +37,8 @@
 }
 
 .card-title{
-    background-color: black;
-    opacity: 0.5;
+    background-color: #F2789F;
+    opacity: 0.8;
 }
 
 .parent{
@@ -64,6 +63,16 @@ img{
 .ques{
     text-align: center;
     margin: 1.5em 1em 1em 1em;
+}
+
+.btn{
+    background-color: #F2789F;
+}
+.btn:hover{
+    background-color: #F999B7;
+}
+nav{
+    background-color: #F9C5D5;
 }
 
 @media only screen and (max-width: 950px) {
