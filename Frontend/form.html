@@ -39,33 +39,46 @@
         <li><a href="contact.html">Contact</a></li>
     </ul>
     <div class="row">
-        <form class="col s12">
+        <form action="https://55d92497-6406-4995-a9a0-561a2401de04.mock.pstmn.io/pet" method="post" class="col s12">
             <div class="row">
+                <h4>Pet Details</h4>
                 <div class="input-field col s6">
-                    <input id="last_name" type="text" class="validate">
+                    <input id="id" name="id" type="text" class="validate">
+                    <label for="last_name">Pet's ID</label>
+                </div>
+                <div class="input-field col s6">
+                    <input id="name" name="name" type="text" class="validate">
                     <label for="last_name">Pet's Name</label>
                 </div>
                 <div class="input-field col s6">
-                    <input id="last_name" type="text" class="validate">
+                    <input id="breed" name="breed" type="text" class="validate">
                     <label for="last_name">Breed</label>
                 </div>
                 <div class="input-field col s6">
-                    <input id="last_name" type="text" class="validate">
-                    <label for="last_name">State</label>
+                    <input id="picture" name="picture" type="text" class="validate">
+                    <label for="last_name">Picture Link</label>
                 </div>
                 <div class="input-field col s6">
-                    <input id="last_name" type="text" class="validate">
-                    <label for="last_name">City</label>
+                    <input id="location" type="text" class="validate">
+                    <label for="location">Location</label>
                 </div>
                 <div class="input-field col s6">
-                    <input id="last_name" type="text" class="validate">
-                    <label for="last_name">Description</label>
+                    <input id="email" name="email" type="text" class="validate">
+                    <label for="email">Email</label>
+                </div>
+                <div class="input-field col s6">
+                    <input id="phone" name="phone" type="text" class="validate">
+                    <label for="phone">Phone Number</label>
                 </div>
             </div>
+            <button type="submit" class="waves-effect waves-light btn">Submit</button>
         </form>
     </div>
     <!-- Compiled and minified JavaScript MaterializeCSS-->
-    <script src="./index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.25.0/axios.min.js"
+        integrity="sha512-/Q6t3CASm04EliI1QyIDAA/nDo9R8FQ/BULoUFyN4n/BDdyIxeH7u++Z+eobdmr11gG5D/6nPFyDlnisDwhpYA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./form.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
 </body>
