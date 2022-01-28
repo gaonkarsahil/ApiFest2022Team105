@@ -1,0 +1,137 @@
+[
+  {
+    "id": "1",
+    "name": "Grace",
+    "breed": "American pit bull terrier",
+    "picture": "https://www.pexels.com/photo/dog-sitting-near-enclosure-in-sunny-day-4390791/",
+    "location": "Graniteville, SC",
+    "email": "pitbull@outlook.com",
+    "phone": "5833464421"
+  },
+  {
+    "id": "2",
+    "name": "Rocket",
+    "breed": " Mixed Breed ",
+    "picture": "https://www.pexels.com/photo/adorable-dog-looking-through-wire-fence-in-park-4210917/",
+    "location": "141/6 inderpurt, Delhi, India",
+    "email": "amanprakash@outlook.com",
+    "phone": "9695415868"
+  },
+  {
+    "id": "3",
+    "name": "Artemis",
+    "breed": " Labrador ",
+    "picture": "https://images.all-free-download.com/images/graphicwebp/dog_labrador_dogs_241008.webp",
+    "location": "1170 Dove Hill Rd Justin, TX 76247",
+    "email": "epasadoptis@elpasotexas.gov",
+    "phone": "9152127297"
+  },
+  {
+    "id": "4",
+    "name": "Kylo",
+    "breed": " Husky Mix",
+    "picture": "https://www.pexels.com/photo/white-and-black-siberian-husky-puppy-on-brown-grass-field-3726315/",
+    "location": "1662 rafol street, Kosovo",
+    "email": "otd51ch@rupto.ru",
+    "phone": 3832404437"
+  },
+  {
+    "id": "5",
+    "name": "Joie",
+    "breed": "Kitten",
+    "picture": "https://www.pexels.com/photo/person-holding-black-cat-on-bed-8076287/",
+    "location": "7125 S. Kings River Road Parlier, CA 93648",
+    "email": "cathouse@petfinder.com",
+    "phone": "3463759317"
+  },
+  {
+    "id": "6",
+    "name": "Stewie",
+    "breed": "Maine Coon",
+    "picture": "https://www.pexels.com/photo/a-maine-coon-sitting-on-a-plaid-surface-10002360/",
+    "location": "7125 nikola River Road Parlier, CA 93645",
+    "email": "cathouse@petfinder.com",
+    "phone": "2196613553"
+  },
+  {
+    "id": "7",
+    "name": "Zinnia",
+    "breed": "kitten",
+    "picture": "https://www.pexels.com/photo/a-kitten-over-a-white-textile-8895230/",
+    "location": "Trenton Center 2501 W Trenton Rd Edinburg, TX 78539",
+    "email": "adopt@gmail.com",
+    "phone": "4613631824"
+  },
+  {
+    "id": "8",
+    "name": "Khloe",
+    "breed": "coated dog",
+    "picture": "https://www.pexels.com/photo/photo-of-white-and-brown-coated-dog-2820134/",
+    "location": "2796 Overlook Drive Indiana",
+    "email": "neerajsharma294@gmail.com",
+    "phone": "9802313925"
+  },
+  {
+    "id": "9",
+    "name": "Sulcata",
+    "breed": "turtle",
+    "picture": "https://www.pexels.com/photo/brown-and-black-turtle-on-green-grass-3652958/",
+    "location": "23643 Christmas Cemetery Rd. Christmas, FL 32709",
+    "email": "shirleycannan@bell.net",
+    "phone": "3123410693"
+  },
+  {
+    "id": "10",
+    "name": "Jandy",
+    "breed": " Yorkshire Terrier",
+    "picture": "https://www.pexels.com/photo/dog-break-fur-rest-54623/",
+    "location": "New York, NY",
+    "email": "amber@evesanctuary.com",
+    "phone": "6205576915"
+  },
+  {
+    "id": "11",
+    "name": "Arthur",
+    "breed": " Chihuahua",
+    "picture": "https://www.pexels.com/photo/tiny-dog-with-huge-personality-3351190/",
+    "location": "3605 E 552nd Hwy Lily, Kentucky(KY), 40740",
+    "email": "korah43940@nahetech.com",
+    "phone": "1048474560"
+  },
+  {
+    "id": "12",
+    "name": "Oreo",
+    "breed": " Labrador Retriever Mix",
+    "picture": "https://www.pexels.com/photo/brown-puppy-on-concrete-path-1790444/",
+    "location": "96 Pearl Ln Flomaton, Alabama(AL), 36441",
+    "email": "amarjun7@gmail.com",
+    "phone": "3260004929"
+  },
+  {
+    "id": "13",
+    "name": "Brownie",
+    "breed": "Dwarf Mix rabbit",
+    "picture": "https://www.pexels.com/photo/white-and-black-rabbit-on-gray-textile-3820509/",
+    "location": "326 East 110 Street New York, NY 10029",
+    "email": "adoption@nyc.org",
+    "phone": "2127884000"
+  },
+  {
+    "id": "14",
+    "name": "Nicos",
+    "breed": "Domestic kitten",
+    "picture": "https://www.pexels.com/photo/cute-gray-cat-sitting-near-a-plant-7527390/",
+    "location": "Trenton Center 2501 W Trenton Rd Edinburg, TX 78539",
+    "email": "adopt@gmail.com",
+    "phone": "3023625124"
+  },
+  {
+    "id": "15",
+    "name": "Shirley",
+    "breed": "Rex Mix rabbit",
+    "picture": "https://www.pexels.com/photo/adorable-domestic-rabbit-sitting-on-ground-4492264/",
+    "location": "326 East 110 Street New York, NY 10029",
+    "email": "adoption@nyc.org",
+    "phone": "2127884000"
+  }
+]
