@@ -75,6 +75,24 @@ nav{
     background-color: #F9C5D5;
 }
 
+.contact-card{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    display: flex;
+    margin-top: 1em;
+    background-color: #FEE3EC;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.contact-card img{
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
 @media only screen and (max-width: 950px) {
   .hero-img{
       display: none;
