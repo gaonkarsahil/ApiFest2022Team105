@@ -34,11 +34,15 @@ Link: https://web.postman.co/workspace/My-Workspace~d4269804-025d-46a7-8c11-332b
 We have employed a Node based backend API which communicates with a MongoDB Database.
 The API is deployed using Heroku and the mock server is hosted on Postman.
 
-
-API Link: https://restaurantsah.herokuapp.com/restaurants
-
+Postman Workspace Link :- https://www.postman.com/bold-shadow-288515/workspace/apifest2022team105/overview
 
 Mock Server Link: https://98984d34-f838-4335-a78f-9af1233d88d6.mock.pstmn.io/
+
+API DOC Link: https://documenter.getpostman.com/view/19340037/UVeCPoEB#597ef4ef-3352-478e-b22b-213cbfcc2096
+
+API Hosted Link: https://restaurantsah.herokuapp.com/restaurants
+
+
 
 ### Frontend
 
