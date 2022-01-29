@@ -10,7 +10,7 @@ const result = document.getElementById("searchResult");
 
 search.addEventListener('click', e => getPet(pet_name.value));
 
-fetch('https://55d92497-6406-4995-a9a0-561a2401de04.mock.pstmn.io/pet')
+fetch('https://98984d34-f838-4335-a78f-9af1233d88d6.mock.pstmn.io/pet')
     .then(resp => resp.json())
         .then(resp => func(resp))
 
@@ -32,7 +32,7 @@ async function searchPet(arr, name){
 }
 
 async function getPet(name){
-  await fetch('https://55d92497-6406-4995-a9a0-561a2401de04.mock.pstmn.io/pet')
+  await fetch('https://98984d34-f838-4335-a78f-9af1233d88d6.mock.pstmn.io/pet')
     .then(resp => resp.json())
         .then(resp => searchPet(resp, name))
 } 
