@@ -1,0 +1,144 @@
+openapi: 3.0.0
+info:
+  version: 'v.1.0'
+  title: 'Team 105 API'
+servers:
+  - url: 'https://98984d34-f838-4335-a78f-9af1233d88d6.mock.pstmn.io'
+paths:
+  /pet:
+    get:
+      summary: 'List of Pets'
+      operationId: listPets
+      tags:
+        - Pets
+      responses:
+        '200':
+          description: 'List of Pets'
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Pets'
+    post:
+      summary: 'Add a Pet'
+      operationId: AddPet
+      requestBody:
+          required: true
+          description: The Pet to add.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Pet'
+      tags:
+        - Pets
+      responses:
+        '201':
+          description: 'Add a Pet'
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Pet'
+  /pet/{id}:
+    get:
+      summary: 'Single Pet'
+      operationId: getPet
+      parameters:
+        - name: id
+          in: path
+          description: ID of the pet
+          required: true
+          schema:
+            type: string
+      tags:
+        - Pet
+      responses:
+        '200':
+          description: 'Single Pet'
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Pet'
+    put:
+      summary: 'Update a Pet'
+      operationId: UpdatePet
+      parameters:
+        - name: id
+          in: path
+          description: ID of the pet
+          required: true
+          schema:
+            type: string
+      requestBody:
+          required: true
+          description: Update Pet.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Pet'
+      tags:
+        - Pets
+      responses:
+        '204':
+          description: 'Update Pet'
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Pet'
+    delete:
+      summary: 'Delete a Pet'
+      operationId: DeletePet
+      parameters:
+        - name: id
+          in: path
+          description: ID of the pet
+          required: true
+          schema:
+            type: string
+      tags:
+        - Pets
+      responses:
+        '204':
+          description: 'Delete Pet'
+components:
+  schemas:
+    Pets:
+      type: array
+      items:
+          $ref: '#/components/schemas/Pet'
+    Pet:
+      type: object
+      required:
+        - id
+        - name
+        - breed
+        - picture
+        - location
+        - email
+        - phone
+      properties:
+        id:
+          type: string
+          description: Unique identifier for the pet.
+        name:
+          type: string
+          description: The name of the pet.
+        picture:
+          type: string
+          description: The name of the pet.
+        breed:
+          type: string
+          description: The breed of the pet.
+        location:
+          type: string
+          description: The location of the pet.
+        email:
+          type: string
+          description: The email to contact the veterinarian.
+        phone:
+          type: string
+          description: The phone to contact the veterinarian.
+  securitySchemes:
+    BasicAuth:
+      type: http
+      scheme: basic
+security:
+  - BasicAuth: []
