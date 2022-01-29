@@ -10,7 +10,8 @@ An initiative to digitalize the pet adoption process through an API First develo
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3e0ee1ed-a4ce-432e-84b3-c83aeab96c69/deploy-status)](https://pawsadopt.netlify.app/)
 
 ### Watch this video to know more
---video link here--
+
+https://www.youtube.com/watch?v=r_AlHkGEkMk
 
 ### or check this presentation link
 
