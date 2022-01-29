@@ -1,3 +1,5 @@
+
+
 .nav-wrapper{
     padding-left: 1em;
 }
@@ -114,5 +116,8 @@ nav{
       margin: 1em;
       grid-template-columns: 1fr;
       gap: 20px;
+  }
+  img{
+      width: 90vw;
   }
 }
