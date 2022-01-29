@@ -3,6 +3,7 @@
     var instances = M.Sidenav.init(elems);
   });
 
+  
 function handleSubmit(event) {
     event.preventDefault();
 
