@@ -10,7 +10,7 @@ const result = document.getElementById("searchResult");
 
 search.addEventListener('click', e => getPet(pet_name.value));
 
-fetch('https://98984d34-f838-4335-a78f-9af1233d88d6.mock.pstmn.io/pet')
+fetch('https://restaurantsah.herokuapp.com/restaurants')
     .then(resp => resp.json())
         .then(resp => func(resp))
 
@@ -32,7 +32,7 @@ async function searchPet(arr, name){
 }
 
 async function getPet(name){
-  await fetch('https://98984d34-f838-4335-a78f-9af1233d88d6.mock.pstmn.io/pet')
+  await fetch('https://restaurantsah.herokuapp.com/restaurants')
     .then(resp => resp.json())
         .then(resp => searchPet(resp, name))
 } 
