@@ -1,5 +1,7 @@
 
-
+body{
+    background: blue;
+}
 .nav-wrapper{
     padding-left: 1em;
 }
